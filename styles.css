@@ -133,6 +133,15 @@ body {
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
+
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+  .contact-info__avatar:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
   }
 
 /* Intro and skills styles */
